@@ -31,14 +31,61 @@ Danny has shared with you 3 key datasets for this case study:
 - The sales table captures all customer_id level purchases with a corresponding order date 
 and product_id information for when and what menu items were ordered.</p>
 
+<table>
+  <tr>
+  <th>customer_id</th>
+  <th>order_date<t/h>
+  <th>product_id<t/th>
+  </tr>
+  <tr>
+  <td>A</td><td>01/01/2021</td><td>1</td></tr>
+  <td>A</td><td>01/01/2021</td><td>2</td></tr>
+  <td>A</td><td>07/01/2021</td><td>2</td></tr>
+  <td>A</td><td>10/01/2021</td><td>3</td></tr>
+  <td>A</td><td>11/01/2021</td><td>3</td></tr>
+  <td>A</td><td>11/01/2021</td><td>3</td></tr>
+  <td>B</td><td>01/01/2021</td><td>2</td></tr>
+  <td>B</td><td>02/01/2021</td><td>2</td></tr>
+  <td>B</td><td>04/01/2021</td><td>1</td></tr>
+  <td>B</td><td>11/01/2021</td><td>1</td></tr>
+  <td>B</td><td>16/01/2021</td><td>3</td></tr>
+  <td>B</td><td>01/02/2021</td><td>3</td></tr>
+  <td>C</td><td>01/01/2021</td><td>3</td></tr>
+  <td>C</td><td>01/01/2021</td><td>3</td></tr>
+  <td>C</td><td>07/01/2021</td><td>3</td></tr>
+  
+</table>
+
 <p><b>Table 2: menu </b>
 - The menu table maps the product_id to the actual product_name and price of each menu 
 item. </b>
+<table>
+  <tr>
+  <th>product_id</th>
+  <th>product_name<t/h>
+  <th>price<t/th>
+  </tr>
+  <tr>
+  <td>1</td><td>sushi</td><td>10</td></tr>
+  <td>2</td><td>curry</td><td>15</td></tr>
+  <td>3</td><td>ramen</td><td>12</td></tr>
+</table>
 
 <p>
 <b>Table 3: members </b>
 - The final members table captures the join_date when a customer_id joined the beta version of
 the Danny’s Diner loyalty program. </p>
+<table>
+  <tr>
+  <th>customer_id</th>
+  <th>join_date<t/h>
+
+  </tr>
+  <tr>
+  <td>A</td><td>07/01/2021</td></tr>
+  <td>B</td><td>09/01/2021</td></tr>
+  <td>C</td><td>12/01/2021</td></tr>
+</table>
 
 <h4 ><center>Case Study Questions: </center></h4>
 
