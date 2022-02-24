@@ -90,7 +90,7 @@ the Danny’s Diner loyalty program. </p>
 <h4 ><center>Case Study Questions: </center></h4>
 
 <ol>
-<li>What is the total amount each customer spent at the restaurant? </li>
+<li> What is the total amount each customer spent at the restaurant? </li>
 <li> How many days has each customer visited the restaurant?  </li>
 <li> What was the first item from the menu purchased by each customer?  </li>
 <li> What is the most purchased item on the menu and how many times was it purchased by all customers?  </li>
