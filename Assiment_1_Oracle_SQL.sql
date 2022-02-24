@@ -1,19 +1,4 @@
-create or replace PROCEDURE Assiment1
 
-BEGIN
-SELECT * FROM Employees;
-select --Employees.*
-rowID,
-department_id
-,rownum rn, row_number() over(  order by department_id desc) rnum
-, row_number()over(partition by department_id order by department_id ) as rnum1
-, rank()over(order by department_id ) as rn
-, rank()over(partition by department_id order by department_id ) as rn1
-, dense_rank()over(order by department_id ) as dn
-, dense_rank()over(partition by department_id order by department_id ) as dn1
-from Employees order by department_id;
-
-select distinct(department_id) from Employees;
 
 
 CREATE TABLE menu
@@ -196,4 +181,3 @@ SELECT me.customer_id,m1.Product_Name, m1.Price,Order_date,join_date
                                   ORDER BY customer_id,Product_Name)
                                   GROUP BY customer_id
                                   
-END
